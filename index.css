@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#heading1{color:cyan;background-color: antiquewhite;height: 80px;line-height: 80px;margin-bottom:
+   0;letter-spacing: 10px;text-shadow: 2px 2px 2px red; animation-name: 
+   heading;animation-duration: 6s;animation-delay: 2s;animation-iteration-count: infinite;text-align:center;
+   position: relative;animation-direction: alternate;animation-timing-function:linear;
+  }
+@keyframes heading{
+  0%{text-shadow:4px 4px 4px red;}
+  25%{text-shadow:4px 4px 4px rgb(183, 231, 27);color: red;}
+  50%{text-shadow:4px 4px 4px rgb(70, 39, 225);color: greenyellow;}
+  75%{text-shadow:4px 4px 4px rgb(33, 4, 9);color: blue;}
+  100%{text-shadow:4px 4px 4px rgb(13, 241, 36);color: tomato;}
+}
+
+
+#row1{background-color: rgb(21, 30, 60);}
+#row2{background-color: rgb(229, 224, 224);}
+#row3{background-color: rgb(21, 30, 60);}
+#nav{background-color: darkgrey;position: sticky;top: -1px;margin: 0;padding: 0;}
+#li1{margin-left: 4px;border: 1px solid blanchedalmond; border-radius: 10px 100px;}
+#img1{box-shadow: 2px 4px 3px 2px rgb(70, 180, 216); border-radius:50px 50px ;}
+#img1:hover{box-shadow: 2px 4px 3px 2px rgb(227, 105, 105);}
+#nav ul li{box-shadow:2px 2px 2px 1px rgb(70, 180, 216) ;}
+#nav ul li:hover{box-shadow:2px 2px 2px 1px rgb(227, 105, 105) ;cursor:wait;}
+
+
+
+
+
+#service{background-color: rgb(230, 220, 238);}
+#textshadow1{text-shadow: 2px 2px 2px rgb(180, 28, 28);font-weight: bolder;animation-name: 
+  textshadow;animation-duration: 4s;animation-delay: 2s;animation-iteration-count: infinite;z-index:-1;
+  position: relative;animation-direction: alternate;animation-timing-function: ease;}
+
+@keyframes textshadow{
+  0%{text-shadow: 2px 2px 2px rgb(180, 28, 28);}
+  25%{text-shadow: 4px 4px 2px rgb(44, 222, 59);}
+  50%{text-shadow: 4px 4px 2px rgb(25, 125, 239);}
+  75%{text-shadow: 4px 4px 2px rgb(231, 32, 214);}
+  
+}
+
+
+#textshadow2{text-shadow: 2px 2px 2px rgb(180, 28, 28);font-weight: bolder;animation-name: 
+  textshadow;animation-duration: 4s;animation-delay: 2s;animation-iteration-count: infinite;z-index:-1;
+ animation-direction: alternate;animation-timing-function:linear;}
+
+@keyframes textshadow{
+  0%{text-shadow: 2px 2px 2px rgb(180, 28, 28);}
+  25%{text-shadow: 4px 4px 2px rgb(44, 222, 59);}
+  50%{text-shadow: 4px 4px 2px rgb(25, 125, 239);}
+  75%{text-shadow: 4px 4px 2px rgb(231, 32, 214);}
+  
+}
+
+#div1{width:280px;height: 220px;}
+#div2{width: 250px;height: 170px;}
+
+div ul li{list-style-type: none;font-weight: 600;color: rgb(115, 42, 241);}
+
+#div4{width: 500px;height: 300px;float: right;}
+
+#divowner1{color: red;float: left;}
+
+
+
+#cardlink{font-size: 22px;margin: 3px;color: black;}
+#cardbutton{display:inline-block;width: 100%;outline: 0;background-color: black;color: white;padding: 9px;}
+#cardbutton:hover{opacity: 0.7;}
+
+#name1{font-size: small;}
+
+#back1{background-color: rgb(224, 236, 232);}
+#btn1{height: 50px; width: 50px;margin-left: 15px; border-radius:100%; box-shadow:1px 1px 1px 1px rgb(27, 240, 255) ;border:none;background-color: transparent;}
+#btn1:hover{box-shadow:1px 1px 2px 1px rgb(239, 58, 134) ;}
+
+#enroll{background-color: rgb(77, 92, 136);}
+#contact1{background-color: rgb(90, 124, 233);}
+#contact2{background-color: rgb(214, 211, 211);color: azure;}
+
+#img2{background-color: rgb(175, 169, 169); margin:2px; border: none; box-shadow:1px 1px 1px 1px rgb(22, 217, 155) ;}
+#img2:hover{ box-shadow:1px 1px 1px 1px rgb(217, 90, 22) ;transform: translateX(3px); height: 45px; width: 45px;cursor: grab;}
+#hr{color: rgb(237, 79, 11);margin-top: 10px;font-weight: bold;}
+
+
+
+#uproduct{float: left; margin: 5px;}
+#pdetails{margin-top: 25px; }
+
+#btn2{width: 100px;border-radius: 4px 4px;margin-left: 55px;}
+.text1{width: 150px;margin-top: 5px;text-align: center;}
+.tbl4{line-height: 150px;}
+#icon1:hover{color: red;}
+#btn5{width: 170px; margin-top: 25px;margin-left: 100px;}
+#btn5:hover{background-color: rgb(238, 132, 61);}
+
+#addsp{visibility: visible;}
+
+
+#inpt234{height: 20px;width: 40px;}
+
+#container1{background-color: rgb(198, 236, 198);}
+#container2{background-color:rgb(224, 175, 166)}
+#height1{height: 350px;}
+
+
+.blogcategory{
+  font-size:22px;
+  transition: margin-left 2s;
+}
+
+.blogcategory:hover{
+  cursor: pointer;
+  color:red;
+  text-decoration:underline;
+  margin-left:15px;
+}
+
+#star{animation-name: star;animation-timing-function: linear;animation-duration: 7s;animation-delay: 2s;
+  animation-direction: normal;animation-iteration-count: infinite;color: red;position: relative;}
+
+  @keyframes star{
+    0%{left: 0px;top: 0px;}
+    25%{left:95%;top: 0px;}
+    50%{left: 99%;top: 94%;}
+    75%{left:0px;top: 94%;}
+    100%{left: 0px;top:0px;}
+
+  }
+  #prctc{height: 300px;}
+
+
+  #btnlg{width: 250px;border: none;border-bottom: 2px solid rgb(228, 224, 224);margin: 2px; background-color:transparent;caret-color: red;caret-shape:block ; }
+  #btnsm{width: 150px;border: none;border-bottom: 2px solid rgb(220, 215, 215);margin: 2px;background-color:transparent;caret-color: red;}
+  #btnxs{width: 50px;border: none;border-bottom: 2px solid rgb(233, 224, 224);margin: 2px;background-color:transparent;caret-color: red;}
+  #register{height: 350px;margin-top: 80px;margin-bottom: 80px;}
+
+  #btnlg:active{border-style: none;}
+  #btnlogin:hover{background-color:navy;color: aliceblue;}
+  #btnlogin:active{background-color: blueviolet;}
+
+  #formlogin{background-image: url(https://miro.medium.com/max/1400/1*cdAdNGOo3QyPcblXR66x1Q.gif);
+    background-position: center;
+    background-size: cover;background-size: cover;background-repeat: no-repeat;background-position-y: bottom;
+    animation-name: formlogin; animation-timing-function: linear;animation-duration:4s; animation-iteration-count: infinite;
+  }
+
+  @keyframes formlogin{
+    0%{box-shadow: 2px 2px 2px 3px red;}
+    25%{box-shadow: 2px 2px 2px 3px rgb(201, 245, 27);}
+    50%{box-shadow: 2px 2px 2px 3px rgb(15, 232, 156);}
+    75%{box-shadow: 2px 2px 2px 3px rgb(133, 30, 202);}
+    100%{box-shadow: 2px 2px 2px 3px rgb(255, 0, 179);}
+  }
+
+  #logininput{background-color:transparent;color:black;width: 45%;}
+  #loginbtn{width: 50%;}
+  #loginbtn:hover{background-color: rgb(215, 152, 101);}
+  #loginbtn:active{background-color: rgb(199, 106, 227);}
+
+  #adminnav{display: inline-block;margin-left:15px;padding: 12px;}
+  #adminlink{color: rgb(58, 48, 30);text-decoration: none;}
+
+  #form1{background-image: url(https://learn.canva.com/wp-content/uploads/2016/04/1.-mage-by-Rodion-Kutsaev-via-Unsplash.jpg);
+  background-position: center;
+  background-size: cover; background-repeat: no-repeat; background-position: center;
+  }
+
+#logindiv{width: 100%; height:100px;background-color:#f5cac3;margin-top: 5px;margin-bottom: 5px;}
+#loginleftform{background-color: #52b788;}
+#loginleftform button{background-color: #bb3e03; color: white;border-radius: 50px 50px;font-size: 10px;width: 100%;height: 25px;}
+  
+#loginleftform p{font-size: 10px;font-style: italic;}
+
+#loginleftform h5{font-size: 14px;}
+#logindiv1{float: left;}
+#leftformtext{background-color: #f4978e;}
+
+
+
+
+
+
+  #footerimage{height: 250px;}
+  #icon3{color: red;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  #gp:hover{color: red;padding-bottom: 5px;margin-top: 5px;}
+  #cp:hover{color: rgb(41, 27, 167);}
+  #chld:hover{color: white;}
+
+
