@@ -12,6 +12,7 @@ const Home=()=>{
 <>
 <Heading />
 <Mynav />
+        <h2> Welcome To Home Guys</h2>
 
         <FitnessGoal />
         <AboutFitness />
